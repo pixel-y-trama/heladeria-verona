@@ -11,7 +11,7 @@ function foto(valueTitulo,valueImg, valueAlt){
     this.alt = valueAlt;
 }
 
-var foto1 = new foto("Helados para saborear", "images/imgs/_DSC5890.jpg","Niño comiendo helado");
+var foto1 = new foto("Helados para saborear", "../images/imgs/_DSC5890.jpg","Niño comiendo helado");
 var foto2 = new foto("Como más te guste", "images/imgs/_DSC6980.jpg","Copa de helado artesano");
 var foto3 = new foto("Para llevar o a domicilio", "images/imgs/_DSC6908.jpg","Helado artesano para llevar o a domicilio");
 var foto4 = new foto("Crepes", "images/imgs/_DSC7113.jpg","Crepes artesanos");
