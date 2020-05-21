@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verona Helado artesanal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="responsive.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <meta name="description" content="Verona Helado artesanal. Elaboración propia diaria de helados, chocolates, tortitas, crepes y muchos productos más.">
+        <meta name="keywords" content="helado artesanal Verona, helados, cafés, granizados, crepes, batidos, gofres, tortitas, chocolates, pedido a domicilio, Arganda del Rey, ice creams, helados para llevar, take away">
+        
+        <style>
+            main{
+                padding: 20px;
+                height: 100%;
+            }
+            .cadaSabor {
+                text-align: center;
+                margin:0 auto;
+            }
+            .cadaSabor ul li{
+                padding-bottom: 4%;
+            }
+            .tipoSabor {
+                color:rgba(231,177,66,.8);
+                text-align: center;
+                margin:0 auto;
+                padding-top: 30px;
+                padding-bottom: 15px;
+            }
+            .imgsSabores img {
+                border-radius:10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -o-border-radius:10px;
+                -ms-border-radius:10px;
+                border: 5px solid #dadada;
+                display: block;
+                margin: auto;
+                margin-top: 30px;
+                width: 100%;
+            }
+            .entradilla {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .tituloSabores {
+                font-size:36px;
+                line-height:40px;
+                text-transform:uppercase;
+                margin-bottom:15px;
+                font-weight:600;
+                text-align: center;
+            }
+            .parrafo {
+                font-size: 17px;
+                line-height:24px;
+                font-weight:normal;
+                text-transform:uppercase;
+                margin-bottom:15px;
+                color:#2e2e2e;
+                position:relative;
+                text-align: center;
+                margin-bottom:80px;
+            }
+            .parrafo:after {
+                position:absolute;
+                content:' ';
+                background:rgba(231,177,66,.8);
+                width:80px;
+                height:3px;
+                bottom:-22px;
+                left:50%;
+                margin-left:-40px;
+            }
+
+            .columna{
+                margin-right:-15px;
+                margin-left:-15px
+            }
+
+            .col_25{
+                width:23%;
+                margin: 1%;
+                height: 370px;
+                float: left;
+            }
+
+            @media only screen and (max-width: 380px){
+                .tituloSabores{
+                    font-size: 28px;
+                }
+                .parrafo{
+                    font-size: 14px;
+                }
+                .col_25{
+                    width: 97%;
+                    margin-top: 7%;
+                    margin-bottom: 0;
+                }
+                h1{
+                    font-size: 1.5em;
+                }
+                .cadaSabor ul li{
+                    font-size: 0.9em;
+                }
+            }
+            @media only screen and (max-width: 320px){
+                .tituloSabores{
+                    font-size: 28px;
+                }
+                .parrafo{
+                    font-size: 14px;
+                }
+                .col_25{
+                    width: 100%;
+                }
+                h1{
+                    font-size: 1.5em;
+                }
+                .cadaSabor ul li{
+                    font-size: 0.9em;
+                }
+            }
+
+            </style>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="wrapperRRSS">
+                    <div id="telefono">
+                        <p>Pedidos (próximamente) <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQ4y42R0Y3CMBBEn11B6CB0EKQtADq4EqCD6+Do5EogHYQCRiIdQAekA+7He7KMjTI/cdbr2ZlZeIOkI0AEfr3yLenlHSFrfflhyDkicMuLEbj+EzqHpCfQAQRJPXAHMLNQ6opm9uADcllOuwAPYAC2oWJ1D0zpd+PFW2tETNSDpHO1we0AP60Gd3FqusjS3pjZUjIA7NL36euRdClzGIDSzVjLYQL2wGxmu5C9nrIkt6WWTzmd02iPowPukrpVBMBYqY+rFZjZXMn4a62CPMW+sAIwAwczWxLhMYV3fSMo1jEVRC2cQusmTbykldUwA4fASiSLvT/2kP8ARPp3ENKjhAgAAAAASUVORK5CYII=" width="15" height="15"/> <a href="tel:+34918759997">91 875 99 97</a></p>
+                    </div>
+                    <div id="rrss">
+                        <a href="https://www.facebook.com/VeronaHeladoArtesanal" id="logo2" target="_blank"></a>
+<!--                        <a href="#" id="logo3" target="_blank"></a>-->
+                        <a href="https://www.instagram.com/veronaheladoartesanal_" id="logo4" target="_blank"></a>
+                    </div>
+                </div>
+                <a href="index.html"><img src="images/Verona_Helado_Artesanal-1.png" alt="Verona Helado Artesanal" id="logo_verona"></a>
+                <div id="btnMenu"><a id="btnMenu" href="#"><span></span></a></div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html" id="logo1"></a></li>
+                        <li><a href="index.html#sobrenosotros">Sobre nosotros</a></li>
+                        <li><a href="index.html#sabores">Productos</a></li>
+                        <li><a href="promociones.html">Promociones</a></li>
+                        <li><a href="index.html#pedidos">Pedidos</a></li>
+                        <li><a href="index.html#contacto">Dónde estamos</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+            <main>
+                <div>
+                    <div class="entradilla">
+                        <h2 class="tituloSabores">Sabores</h2>
+                        <p class="parrafo">Todos los sabores que disponemos para darte el gusto.</p>
+                    <div>
+                        <div class="col_25">
+                            <div class="imgsSabores"><img src="images/imgs/Sabores/240x80/Helados.jpg" alt="Helados"></div>
+                            <div class="tipoSabor"><h1>Helados</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Vainilla</li>
+                                    <li>Chocolate</li>
+                                    <li>Nata</li>
+                                    <li>Stracciatella</li>
+                                    <li>Leche merengada</li>
+                                    <li>Turrón de Jijona</li>
+                                    <li>Tarta malagueña</li>
+                                    <li>Limón</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Batidos.jpg" alt="Batidos"></div>
+                            <div class="tipoSabor"><h1>Batidos</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Fresa</li>
+                                    <li>Chocolate</li>
+                                    <li>Mango</li>
+                                    <li>Melón</li>
+                                    <li>Mandarina</li>
+                                    <li>Sandía</li>
+                                    <li>Yogurt con maracuya</li>
+                                    <li>Coco</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Gofres.jpg" alt="Gofres"></div>
+                            <div class="tipoSabor"><h1>Gofres</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Nata y sirope</li>
+                                    <li>Nata, sirope y 1 bola de helado</li>
+                                    <li>Nata, sirope y 2 bolas de helado</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Tortitas.jpg" alt="Tortitas"></div>
+                            <div class="tipoSabor"><h1>Tortitas</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Nata y sirope con 1 tortita</li>
+                                    <li>Nata y sirope con 2 tortitas</li>
+                                    <li>Nata y sirope con 2 tortitas y 1 bola de helado</li>
+                                    <li>Nata y sirope con 2 tortitas y 2 bolas de helado</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Crepes.jpg" alt="Crepes"></div>
+                            <div class="tipoSabor"><h1>Crepes</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Nata</li>
+                                    <li>Relleno de chocolate</li>
+                                    <li>Relleno de nata</li>
+                                    <li>Relleno de dulce de leche</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Granizados.jpg" alt="Granizados"></div>
+                            <div class="tipoSabor"><h1>Granizados</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Café con helado de vainilla</li>
+                                    <li>Café con helado de nata o leche merengada</li>
+                                    <li>Café con helado de leche merengada</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Chocolates.jpg" alt="Chocolates"></div>
+                            <div class="tipoSabor"><h1>Chocolates</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Chocolate con leche</li>
+                                    <li>Chocolate blanco</li>
+                                    <li>Chocolate negro</li>
+                                    <li>Kinder bueno</li>
+                                    <li>Huevo Kinder</li>
+                                    <li>Snicker</li>
+                                    <li>Montachoc</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_25">
+                            <div class="imgsSabores "><img src="images/imgs/Sabores/240x80/Cafes.jpg" alt="Cafés"></div>
+                            <div class="tipoSabor"><h1>Cafés</h1></div>
+                            <div class="cadaSabor ">
+                                <ul>
+                                    <li>Ice Vainilla</li>
+                                    <li>Lattino</li>
+                                    <li>Vainilla Café</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p>© 2017 Verona Helado artesanal. Todos los derechos reservados.</p>
+                <div>
+                    <a href="https://www.facebook.com/VeronaHeladoArtesanal" id="logo2" target="_blank"></a>
+<!--                    <a href="#" id="logo3" target="_blank"></a>-->
+                    <a href="https://www.instagram.com/veronaheladoartesanal_" id="logo4" target="_blank"></a>
+                </div>
+                <ul id="legal">
+                    <li style="padding-left: 0"><a href="terminos_y_condiciones.html" target="_blank">Términos y condiciones de uso</a></li>
+                    <li><a href="politicadecookies.html" target="_blank">Política de cookies</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+                
+            </footer>
+            <div id="designby"><p>Diseñada por <a href="https://es.linkedin.com/in/jaime-mena-martinez" target="_blank">MENA Graphic & Web</a></p></div>
+        </div>
+        <div id="cookiesWrap">
+            <div id="infobox">
+                <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúa navegando acepta su uso.
+                <a href="politicadecookies.html" target="_blank">Más información</a>
+                <a onclick="aceptar_cookies();" style="cursor:pointer;">Cerrar</a></p>
+            </div>
+        </div>
+        <script src="js/slider.js" type="text/javascript"></script>
+        <script src="js/menu.js" type="text/javascript"></script>
+        <script src="js/cookies.js" type="text/javascript"></script>
+    </body>
+</html>

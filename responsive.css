@@ -1,0 +1,385 @@
+@media only screen and (min-width: 769px){
+    #menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 13px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    header{
+        position: relative;
+    }
+    #btnMenu{
+        display: block;
+        margin-right: 15px;
+    }
+    #logo_verona{
+        margin: 0;
+        margin-bottom: 35px;
+        height: 70px;
+        float: none;
+        position: relative;
+        top: 20px;
+        left: 39%;
+    }
+    nav{
+        margin-right: 0;
+        display: none;
+        float: none;
+        line-height: 40px;
+        transition: all .4s;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        -o-transition: all .4s;
+        -ms-transition: all .4s;
+        display: block;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        font-size: 1.4em;
+        padding-top: 0.5em;
+        margin-left: 0;
+        border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+    nav ul li:last-child{
+        padding-bottom: 1em;
+    }
+    nav li a:hover{
+        background: #DC911B;
+        width: 100%;
+        display: block;
+        color: #fff;
+    }
+    
+    #logo1{
+        margin-left: 0;
+    }
+    
+    /*MAIN
+    ============*/
+    .mitad{
+        width: 100%;
+        padding: 20px;
+    }
+    .imgs_lado_der{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    #sabores{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0;
+    }
+    .carta1{
+        margin-right: calc(7.3% - 15px);
+        margin-right: -webkit-calc(7.3% - 15px);
+        margin-right: -moz-calc(7.3% - 15px);
+        margin-right: -o-calc(7.3% - 15px);
+        margin-right: -ms-calc(7.3% - 15px);
+        margin-bottom: 2%;
+        width: 45%;
+        float: left;
+    }
+    .carta2{
+        margin: 0 0;
+    }
+    .carta3:hover .productoSabores {
+        bottom: 0px;
+    }
+
+    #pedidos{
+        background: url(images/imgs/_DSC6875_pedido_700px.jpg) no-repeat;
+        background-position-x: -100px;
+        height: 350px;
+    }
+    #pedidos article{
+        margin-left: 52%;
+        width: 45%;
+    }
+    #pedidos article span{
+        font-size: 1.5em;
+    }
+    
+    /*formulario*/
+    #mapa .velomapa {
+        display: none;
+    }
+    .velomapa{
+        display: none;
+    }
+    #contacto{
+        height: 480px;
+    }
+    #direccion{
+        margin-bottom: 20px;
+        font-size: 0.95em;
+    }
+    form {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 7% 4% 0 4%;
+    }
+    input {
+        margin-bottom: 9%; 
+    }
+    #submit {
+        width: 130px;
+        height: 40px;
+        margin-top: 5%;
+        margin-left: calc(50% - 65px);
+        margin-left: -moz-calc(50% - 65px);
+        margin-left: -ms-calc(50% - 65px);
+        margin-left: -o-calc(50% - 65px);
+    }
+    
+    /*FOOTER
+    ============*/
+    footer{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 0 0;
+        line-height: 35px;
+    }
+    #legal{
+        font-size: 1.2em;
+        width: 405px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #logo_verona{
+        left: 36%;
+    }
+}
+@media only screen and (max-width: 500px){
+    #logo_verona{
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    #btnMenu{
+        display: block;
+        margin-right: 15px;
+    }
+    #logo_verona{
+        margin: 0;
+        margin-bottom: 35px;
+        height: 70px;
+        float: none;
+        position: relative;
+        top: 20px;
+        left: 33%;
+    }
+    nav{
+        margin-right: 0;
+        display: none;
+        float: none;
+        line-height: 40px;
+        display: block;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        font-size: 1.4em;
+        padding-top: 0.5em;
+        margin-left: 0;
+    }
+    nav ul li:last-child{
+        padding-bottom: 1em;
+    }
+    nav li a:hover{
+        background: #DC911B;
+        width: 100%;
+        display: block;
+        color: #fff;
+    }
+    
+    #logo1{
+        margin-left: 0;
+    }
+    
+    
+    #content_slider .foto  h3{
+        font-size: 1.6em;
+    }
+    
+    /*MAIN
+    ============*/
+    #sabores{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+    .carta1{
+        margin-right: 0%;
+        margin-bottom: 1%;
+        width: 100%;
+        float: none;
+    }
+    .carta2{
+        margin: 0 0;
+    }
+    .carta3:hover .productoSabores {
+        bottom: 0px;
+    }
+
+    #pedidos{
+        background: url(images/imgs/_DSC6875_pedido_700px.jpg) no-repeat;
+        background-position-x: -140px;
+    }
+    #pedidos article{
+        margin-left: 52%;
+        width: 45%;
+    }
+    #pedidos article span{
+        font-size: 1.7em;
+    }
+
+    /*formulario*/
+    #mapa .velomapa {
+        display: none;
+    }
+    .velomapa{
+        display: none;
+    }
+    #contacto{
+        height: 480px;
+    }
+    #direccion{
+        margin-bottom: 20px;
+        font-size: 0.95em;
+    }
+    form {
+        width: 100%;
+        margin-top: 7%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 4%;
+    }
+    input {
+        margin-bottom: 9%; 
+    }
+    #submit {
+        width: 130px;
+        height: 40px;
+        margin-top: 5%;
+        margin-left: calc(50% - 65px);
+        margin-left: -moz-calc(50% - 65px);
+        margin-left: -ms-calc(50% - 65px);
+        margin-left: -o-calc(50% - 65px);
+    }
+    
+    /*FOOTER
+    ============*/
+    footer{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 0 0;
+        line-height: 35px;
+    }
+    #legal{
+        font-size: 1em;
+        width: 300px;
+    }
+    #legal li{
+        display: inline-block;
+        float: none;
+        padding-left: 8%;
+    }
+    
+    
+    
+    /*EMERGENTE COOKIES
+    ============*/
+    #cookiesWrap{
+    }
+    #infobox{
+        padding: 2%;
+    }
+    #infobox p{
+        line-height:21px;
+        font-size: 1em;
+    }
+    #infobox p a{
+    }
+}
+
+@media only screen and (max-width: 380px){
+    #btnUP {
+        display: none;
+        position: fixed;
+        bottom: 7%;
+        right: 1%;
+    }
+    #logo_verona{
+        left: 28%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #logo_verona{
+        left: 5%;
+    }
+    #pedidos{
+            background: url(images/imgs/_DSC6875_pedido_700px.jpg) no-repeat;
+            background-position-x: -220px;
+            height: 100%;
+    }
+    #pedidos article{
+        width: 60%;
+        margin-left: 35%;
+        margin-right: 20%;
+        margin-top: 5%;
+    }
+    
+    /*FOOTER
+    ============*/
+    #legal{
+        font-size: 1em;
+/*        width: 280px;*/
+    }
+    #legal li{
+        display: inline-block;
+        float: none;
+        padding-left: 4%;
+    }
+}
+@media only screen and (max-width: 300px){
+    h2 span{
+        font-size: 14px;
+    }
+    #pedidos{
+            background: url(images/imgs/_DSC6875_pedido_700px.jpg) no-repeat;
+            background-position-x: -470px;
+            height: 100%;
+    }
+    #pedidos article{
+        width: 86%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5%;
+    }
+}
